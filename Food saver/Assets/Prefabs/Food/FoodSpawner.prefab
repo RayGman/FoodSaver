@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &576228544722184151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576228544722184148}
+  - component: {fileID: 576228544722184149}
+  m_Layer: 5
+  m_Name: FoodSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4
+  m_IsActive: 1
+--- !u!224 &576228544722184148
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576228544722184151}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 18, y: 690}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.49999988}
+--- !u!114 &576228544722184149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576228544722184151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6386f978b4bafe44b1a0810239e6d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPrefabs: {fileID: 0}
+  foodPrefab: {fileID: 732613834660277392, guid: e73be04379279d540b1f38fdefd3f078,
+    type: 3}
+  foodSettings:
+  - {fileID: 11400000, guid: 4afba5ca1addad84b9d00bcae590d8a7, type: 2}
+  - {fileID: 11400000, guid: 4afba5ca1addad84b9d00bcae590d8a7, type: 2}
+  - {fileID: 11400000, guid: 20292d8360f3f1a46931e9230098b05c, type: 2}
+  - {fileID: 11400000, guid: 0c72ae4eb0df6e74d99d783281347eff, type: 2}
+  - {fileID: 11400000, guid: 62c60993c1b1a6847b6d5a100e29d2cf, type: 2}
+  bonusSettings:
+  - {fileID: 11400000, guid: f7ef4b339e4b64b40ab80b85cc9ed6ff, type: 2}
+  - {fileID: 11400000, guid: 896d5ab185dd7a44ebf6a06148d47a65, type: 2}
+  bonusPrefab: {fileID: 0}
+  poolCount: 5
+  spawnTime: 0.7
+  addFoodSettings:
+  - {fileID: 11400000, guid: 6073e42b07770484fa424adb3eac5963, type: 2}
+  - {fileID: 11400000, guid: 76d3ed663710385408e5240ed05b3bf7, type: 2}
+  - {fileID: 11400000, guid: 8c1d200c8722c3a47a4453bd52a6d78f, type: 2}

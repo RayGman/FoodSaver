@@ -1,0 +1,798 @@
+fileFormatVersion: 2
+guid: de5ca313ef088854c83874e135690df8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: GameCoin-CoinRedWhite-B_0
+  - first:
+      213: 21300002
+    second: GameCoin-CoinRedWhite-B_1
+  - first:
+      213: 21300004
+    second: GameCoin-CoinRedWhite-B_2
+  - first:
+      213: 21300006
+    second: GameCoin-CoinRedWhite-B_3
+  - first:
+      213: 21300008
+    second: GameCoin-CoinRedWhite-B_4
+  - first:
+      213: 21300010
+    second: GameCoin-CoinRedWhite-B_5
+  - first:
+      213: 21300012
+    second: GameCoin-CoinRedWhite-B_6
+  - first:
+      213: 21300014
+    second: GameCoin-CoinRedWhite-B_7
+  - first:
+      213: 21300016
+    second: GameCoin-CoinRedWhite-B_8
+  - first:
+      213: 21300018
+    second: GameCoin-CoinRedWhite-B_9
+  - first:
+      213: 21300020
+    second: GameCoin-CoinRedWhite-B_10
+  - first:
+      213: 21300022
+    second: GameCoin-CoinRedWhite-B_11
+  - first:
+      213: 21300024
+    second: GameCoin-CoinRedWhite-B_12
+  - first:
+      213: 21300026
+    second: GameCoin-CoinRedWhite-B_13
+  - first:
+      213: 21300028
+    second: GameCoin-CoinRedWhite-B_14
+  - first:
+      213: 21300030
+    second: GameCoin-CoinRedWhite-B_15
+  - first:
+      213: 21300032
+    second: GameCoin-CoinRedWhite-B_16
+  - first:
+      213: 21300034
+    second: GameCoin-CoinRedWhite-B_17
+  - first:
+      213: 21300036
+    second: GameCoin-CoinRedWhite-B_18
+  - first:
+      213: 21300038
+    second: GameCoin-CoinRedWhite-B_19
+  - first:
+      213: 21300040
+    second: GameCoin-CoinRedWhite-B_20
+  - first:
+      213: 21300042
+    second: GameCoin-CoinRedWhite-B_21
+  - first:
+      213: 21300044
+    second: GameCoin-CoinRedWhite-B_22
+  - first:
+      213: 21300046
+    second: GameCoin-CoinRedWhite-B_23
+  - first:
+      213: 21300048
+    second: GameCoin-CoinRedWhite-B_24
+  - first:
+      213: 21300050
+    second: GameCoin-CoinRedWhite-B_25
+  - first:
+      213: 21300052
+    second: GameCoin-CoinRedWhite-B_26
+  - first:
+      213: 21300054
+    second: GameCoin-CoinRedWhite-B_27
+  - first:
+      213: 21300056
+    second: GameCoin-CoinRedWhite-B_28
+  - first:
+      213: 21300058
+    second: GameCoin-CoinRedWhite-B_29
+  - first:
+      213: 21300060
+    second: GameCoin-CoinRedWhite-B_30
+  - first:
+      213: 21300062
+    second: GameCoin-CoinRedWhite-B_31
+  - first:
+      213: 21300064
+    second: GameCoin-CoinRedWhite-B_32
+  - first:
+      213: 21300066
+    second: GameCoin-CoinRedWhite-B_33
+  - first:
+      213: 21300068
+    second: GameCoin-CoinRedWhite-B_34
+  - first:
+      213: 21300070
+    second: GameCoin-CoinRedWhite-B_35
+  - first:
+      213: 21300072
+    second: GameCoin-CoinRedWhite-B_36
+  - first:
+      213: 21300074
+    second: GameCoin-CoinRedWhite-B_37
+  - first:
+      213: 21300076
+    second: GameCoin-CoinRedWhite-B_38
+  - first:
+      213: 21300078
+    second: GameCoin-CoinRedWhite-B_39
+  - first:
+      213: 21300080
+    second: GameCoin-CoinRedWhite-B_40
+  - first:
+      213: 21300082
+    second: GameCoin-CoinRedWhite-B_41
+  - first:
+      213: 21300084
+    second: GameCoin-CoinRedWhite-B_42
+  - first:
+      213: 21300086
+    second: GameCoin-CoinRedWhite-B_43
+  - first:
+      213: 21300088
+    second: GameCoin-CoinRedWhite-B_44
+  - first:
+      213: 21300090
+    second: GameCoin-CoinRedWhite-B_45
+  - first:
+      213: 21300092
+    second: GameCoin-CoinRedWhite-B_46
+  - first:
+      213: 21300094
+    second: GameCoin-CoinRedWhite-B_47
+  - first:
+      213: 21300096
+    second: GameCoin-CoinRedWhite-B_48
+  - first:
+      213: 21300098
+    second: GameCoin-CoinRedWhite-B_49
+  - first:
+      213: 21300100
+    second: GameCoin-CoinRedWhite-B_50
+  - first:
+      213: 21300102
+    second: GameCoin-CoinRedWhite-B_51
+  - first:
+      213: 21300104
+    second: GameCoin-CoinRedWhite-B_52
+  - first:
+      213: 21300106
+    second: GameCoin-CoinRedWhite-B_53
+  - first:
+      213: 21300108
+    second: GameCoin-CoinRedWhite-B_54
+  - first:
+      213: 21300110
+    second: GameCoin-CoinRedWhite-B_55
+  - first:
+      213: 21300112
+    second: GameCoin-CoinRedWhite-B_56
+  - first:
+      213: 21300114
+    second: GameCoin-CoinRedWhite-B_57
+  - first:
+      213: 21300116
+    second: GameCoin-CoinRedWhite-B_58
+  - first:
+      213: 21300118
+    second: GameCoin-CoinRedWhite-B_59
+  - first:
+      213: 21300120
+    second: GameCoin-CoinRedWhite-B_60
+  - first:
+      213: 21300122
+    second: GameCoin-CoinRedWhite-B_61
+  - first:
+      213: 9189028585212148590
+    second: GameCoin-CoinRedWhite-B_3
+  - first:
+      213: -8220605781155431292
+    second: GameCoin-CoinRedWhite-B_11
+  - first:
+      213: -3947511796419651518
+    second: GameCoin-CoinRedWhite-B_0
+  - first:
+      213: 4565203663808163297
+    second: GameCoin-CoinRedWhite-B_1
+  - first:
+      213: -550966089814733774
+    second: GameCoin-CoinRedWhite-B_2
+  - first:
+      213: 1524287546538936996
+    second: GameCoin-CoinRedWhite-B_4
+  - first:
+      213: -7725725264987683046
+    second: GameCoin-CoinRedWhite-B_5
+  - first:
+      213: -5539051227964194172
+    second: GameCoin-CoinRedWhite-B_6
+  - first:
+      213: -3799059641636159589
+    second: GameCoin-CoinRedWhite-B_7
+  - first:
+      213: 2977267450171328278
+    second: GameCoin-CoinRedWhite-B_8
+  - first:
+      213: -5387785780062083789
+    second: GameCoin-CoinRedWhite-B_9
+  - first:
+      213: 4711351892260884836
+    second: GameCoin-CoinRedWhite-B_10
+  - first:
+      213: 4857432327534028434
+    second: GameCoin-CoinRedWhite-B_12
+  - first:
+      213: -8048200985355049018
+    second: GameCoin-CoinRedWhite-B_13
+  - first:
+      213: -9057466739720525160
+    second: GameCoin-CoinRedWhite-B_14
+  - first:
+      213: -828870581793490717
+    second: GameCoin-CoinRedWhite-B_15
+  - first:
+      213: -4196767938945832017
+    second: GameCoin-CoinRedWhite-B_16
+  - first:
+      213: 2628486819274746870
+    second: GameCoin-CoinRedWhite-B_17
+  - first:
+      213: -832987090157761559
+    second: GameCoin-CoinRedWhite-B_18
+  - first:
+      213: 8890135566413485726
+    second: GameCoin-CoinRedWhite-B_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_3
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 3766
+        width: 448
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bfa7c00dcf58f70800000000000000
+      internalID: 9189028585212148590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_11
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 3228
+        width: 448
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c35bfb89a8aed80800000000000000
+      internalID: -8220605781155431292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3766
+        width: 448
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2481ebb9fee9739c0800000000000000
+      internalID: -3947511796419651518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_1
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3766
+        width: 446
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ede8947b8cda5f30800000000000000
+      internalID: 4565203663808163297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_2
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 3766
+        width: 446
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c8e4da2439a58f0800000000000000
+      internalID: -550966089814733774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_4
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 3763
+        width: 446
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa4103927b572510800000000000000
+      internalID: 1524287546538936996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_5
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 3766
+        width: 446
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17062cddc5b8c490800000000000000
+      internalID: -7725725264987683046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_6
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 3766
+        width: 446
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c08c51465123b0800000000000000
+      internalID: -5539051227964194172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_7
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 3766
+        width: 446
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ff0cb5267074bc0800000000000000
+      internalID: -3799059641636159589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3227
+        width: 448
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6178bc0c8f0615920800000000000000
+      internalID: 2977267450171328278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_9
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3230
+        width: 446
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335af75f06dba35b0800000000000000
+      internalID: -5387785780062083789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_10
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 3230
+        width: 446
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461131e8595126140800000000000000
+      internalID: 4711351892260884836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_12
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 3227
+        width: 446
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2962a2357f0196340800000000000000
+      internalID: 4857432327534028434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_13
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 3228
+        width: 446
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7a6f258db0f4090800000000000000
+      internalID: -8048200985355049018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_14
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 3226
+        width: 446
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aea0e1df96d4280800000000000000
+      internalID: -9057466739720525160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_15
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 3226
+        width: 446
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e87d6fe8924f74f0800000000000000
+      internalID: -828870581793490717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2690
+        width: 448
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba2628bc512c5c0800000000000000
+      internalID: -4196767938945832017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_17
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2694
+        width: 446
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbeaa7f5d24a7420800000000000000
+      internalID: 2628486819274746870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_18
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2694
+        width: 446
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb09a4a7a2a074f0800000000000000
+      internalID: -832987090157761559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-CoinRedWhite-B_19
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 2690
+        width: 448
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e965429123b106b70800000000000000
+      internalID: 8890135566413485726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3a68a84ab25bece458faf3183d25be12
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
