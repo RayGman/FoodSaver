@@ -27,6 +27,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 558262801802508822}
   m_RootOrder: 0
@@ -52,7 +53,8 @@ MonoBehaviour:
   foodPrefabs: {fileID: 0}
   panelMenu: {fileID: 0}
   buttonPlay: {fileID: 0}
-  advertising: {fileID: 0}
+  advertising: {fileID: 4901082680600985684, guid: e84a67b05392b58498f8017ba7d38de4,
+    type: 3}
 --- !u!1 &558262801802508817
 GameObject:
   m_ObjectHideFlags: 0
@@ -80,6 +82,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.0078125, y: 0.0078125, z: 0.0078125}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 558262801238780287}
   m_Father: {fileID: 0}
@@ -103,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lvlText: {fileID: 0}
-  healthInfo: {fileID: 0}
-  challenge: {fileID: 0}
+  healthPoint: {fileID: 0}
+  foodChallenge: {fileID: 0}
   foodSpawner: {fileID: 0}
   endGameScript: {fileID: 558262801238780286}

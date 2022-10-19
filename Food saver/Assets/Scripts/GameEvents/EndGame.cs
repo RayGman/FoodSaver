@@ -13,6 +13,7 @@ public class EndGame : MonoBehaviour
     {
         buttonPlay.interactable = true;
         panelMenu.gameObject.SetActive(false);
+
         if (GameObject.FindGameObjectWithTag("AdUnit") == null)
         {
             DontDestroyOnLoad(advertising.gameObject);
@@ -24,7 +25,6 @@ public class EndGame : MonoBehaviour
             advertising.enabled = false;
             advertising = GameObject.FindGameObjectWithTag("AdUnit").GetComponent<Advertising>();
         }
-
     }
 
     public void TheEnd()
@@ -34,6 +34,7 @@ public class EndGame : MonoBehaviour
         audioObject.SetActive(false);
         buttonPlay.interactable = false;
         Time.timeScale = 0f;
+        advertising.gameObject.SetActive(true);
         advertising.GetComponent<Advertising>().AdActivated();
     }
 }

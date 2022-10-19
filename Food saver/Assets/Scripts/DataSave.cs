@@ -5,22 +5,18 @@ using UnityEngine;
 
 public class DataSaver
 {
-    //Save Data
     public static void saveData<T>(T dataToSave, string dataFileName)
     {
         string tempPath = Path.Combine(Application.persistentDataPath, "data");
         tempPath = Path.Combine(tempPath, dataFileName + ".txt");
 
-        //Convert To Json then to bytes
         string jsonData = JsonUtility.ToJson(dataToSave, true);
         byte[] jsonByte = Encoding.ASCII.GetBytes(jsonData);
 
-        //Create Directory if it does not exist
         if (!Directory.Exists(Path.GetDirectoryName(tempPath)))
         {
             Directory.CreateDirectory(Path.GetDirectoryName(tempPath));
         }
-        //Debug.Log(path);
 
         try
         {
@@ -34,13 +30,11 @@ public class DataSaver
         }
     }
 
-    //Load Data
     public static T loadData<T>(string dataFileName)
     {
         string tempPath = Path.Combine(Application.persistentDataPath, "data");
         tempPath = Path.Combine(tempPath, dataFileName + ".txt");
 
-        //Exit if Directory or File does not exist
         if (!Directory.Exists(Path.GetDirectoryName(tempPath)))
         {
             Debug.LogWarning("Directory does not exist");
@@ -53,7 +47,6 @@ public class DataSaver
             return default(T);
         }
 
-        //Load saved Json
         byte[] jsonByte = null;
         try
         {
@@ -66,10 +59,8 @@ public class DataSaver
             Debug.LogWarning("Error: " + e.Message);
         }
 
-        //Convert to json string
         string jsonData = Encoding.ASCII.GetString(jsonByte);
 
-        //Convert to Object
         object resultValue = JsonUtility.FromJson<T>(jsonData);
         return (T)Convert.ChangeType(resultValue, typeof(T));
     }
@@ -78,11 +69,9 @@ public class DataSaver
     {
         bool success = false;
 
-        //Load Data
         string tempPath = Path.Combine(Application.persistentDataPath, "data");
         tempPath = Path.Combine(tempPath, dataFileName + ".txt");
 
-        //Exit if Directory or File does not exist
         if (!Directory.Exists(Path.GetDirectoryName(tempPath)))
         {
             Debug.LogWarning("Directory does not exist");

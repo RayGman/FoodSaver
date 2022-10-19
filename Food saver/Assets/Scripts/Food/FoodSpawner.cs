@@ -55,7 +55,7 @@ public class FoodSpawner : MonoBehaviour
             currentFoods.Enqueue(prefab);
         }
 
-        saveFoodShop = DataSaver.loadData<SaveFoodShop>("SaveData");
+        saveFoodShop = DataSaver.loadData<SaveFoodShop>("FoodSaver_Data");
 
         if (saveFoodShop.buyFoods.Count >= 1)
         {

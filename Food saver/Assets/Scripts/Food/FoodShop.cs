@@ -1,6 +1,5 @@
 using System;
 using System.IO;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -43,17 +42,17 @@ public class FoodShop : MonoBehaviour
             }
         }
         
-        DataSaver.saveData(saveFoodShop, "SaveData");
+        DataSaver.saveData(saveFoodShop, "FoodSaver_Data");
     }
 
     private void CheckSaveShopFile()
     {
         string tempPath = Path.Combine(Application.persistentDataPath, "data");
-        tempPath = Path.Combine(tempPath, "SaveData.txt");
+        tempPath = Path.Combine(tempPath, "FoodSaver_Data.txt");
         bool reloadSave = false;
         if (File.Exists(tempPath))
         {
-            saveFoodShop = DataSaver.loadData<SaveFoodShop>("SaveData");
+            saveFoodShop = DataSaver.loadData<SaveFoodShop>("FoodSaver_Data");
 
             sellFoodDataList.Clear();
             foreach (string item in saveFoodShop.sellFoods)
@@ -86,13 +85,13 @@ public class FoodShop : MonoBehaviour
                 sellFoodDataList.Add(data);                            
                 saveFoodShop.sellFoods.Add(data.name);
             }
-            DataSaver.saveData(saveFoodShop, "SaveData");
+            DataSaver.saveData(saveFoodShop, "FoodSaver_Data");
         }
 
         if (reloadSave == true)
         {
             reloadSave = false;
-            DataSaver.deleteData("SaveData");
+            DataSaver.deleteData("FoodSaver_Data");
             CheckSaveShopFile();
         }
         else
@@ -118,23 +117,23 @@ public class FoodShop : MonoBehaviour
                     Destroy(childPrefab.gameObject);
                 }
 
-                DataSaver.deleteData("SaveData");
+                DataSaver.deleteData("FoodSaver_Data");
                 CheckSaveShopFile();
                 break;
             }
         }
-        DataSaver.saveData(saveFoodShop, "SaveData");
+        DataSaver.saveData(saveFoodShop, "FoodSaver_Data");
     }
 
 #if UNITY_ANDROID && !UNITY_EDITOR
     private void OnApplicationPause(bool pause)
     {
-        if (pause) DataSaver.saveData(saveFoodShop, "SaveData"); 
+        if (pause) DataSaver.saveData(saveFoodShop, "FoodSaver_Data"); 
     }
 #endif
     private void OnApplicationQuit()
     {
-        DataSaver.saveData(saveFoodShop, "SaveData");
+        DataSaver.saveData(saveFoodShop, "FoodSaver_Data");
     }
 }
 
